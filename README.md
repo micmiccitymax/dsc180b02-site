@@ -1,4 +1,4 @@
-# Finding Commonalities in Misinformative Statements Across Topics
+# Finding Commonalities in Misinformative Articles Across Topics
 ## What Data Are We Using?
 <img src="/assets/img/Snopes.png"> <img src="/assets/img/Polifact.png">  <img src="/assets/img/emergent.jfif">
 
