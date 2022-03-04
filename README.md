@@ -57,6 +57,8 @@ Fig 4: Word Cloud of Most Important Words for All Above Article Topics
 ##### We certainly had variances in success, but our best performing model was the science decision tree, with an accuracy of ~ 87%
 ### Commonalities
 #### The next part of our project was finding if these models overlapped in some way, so we looked at how much their list of important words intersected with eachother
-
+#### For example, we found that the highest intersection was the intersection between General and Politics decision trees, with a similarity of 53.6%
+#### An example of a limited intersection was the Science SVM model with the Politics Decision-Tree model with a similarity of 2.4%
+#### While there are some limitation to this method, such as magnitude, we feel it shows important ways that these articles overlap in subject matter and in informativeness
 
 ## Works Cited
