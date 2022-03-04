@@ -9,14 +9,17 @@ For our research, we are using our training dataset to predict whether a random 
 ### Random Forest Classifier
 ### SVM
 ### Data Analysis
-
-<img src="/assets/img/science_logisitic_cloud (1).png">
+<img src="/assets/img/science_logisitic_cloud (1).png"> 
+Fig 1: Word Cloud of Most Important Words for Science Articles
 
 <img src="/assets/img/economics_logisitic_cloud (1).png">
+Fig 2: Word Cloud of Most Important Words for Economic Articles
 
 <img src="/assets/img/politics_logisitic_cloud.png">
+Fig 3: Word Cloud of Most Important Words for Politic Articles
 
 <img src="/assets/img/general_logisitic_cloud.png">
+Fig 4: Word Cloud of Most Important Words for All Above Article Topics
 
 ## Results and Conclusions
 ### Accuracy Percision and Recall
