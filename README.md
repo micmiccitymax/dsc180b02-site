@@ -1,4 +1,5 @@
 # Finding Commonalities in Misinformative Articles Across Topics
+# Link to our Github Repo! https://github.com/freebreadstix/capstone_B02
 ## What Data Are We Using?
 <img src="assets/img/Snopes.png">    <img src="assets/img/Polifact.png">     <img src="assets/img/emergent.jfif">
 
