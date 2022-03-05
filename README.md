@@ -1,11 +1,10 @@
 <html lang="en">
  <body>
   <h1>Finding Commonalities in Misinformative Articles Across Topics</h1>
-  <h1>Link to our Github Repo! https://github.com/freebreadstix/capstone_B02</h1>
    <h2>What Data Are We Using?</h2>
     <p align="center"><img src="assets/img/Snopes.png">    <img src="assets/img/Polifact.png">     <img src="assets/img/emergent.jfif"></p>
 
-   <p>Our data is collected from [Simon Fraser University's fake news research](http://fakenews.research.sfu.ca/#parseWebs) where we used the datasets containing Snopes, Politifact, and Emergent.info articles of varying real and fake news from 2010 to 2018. We took articles from each dataset to create a new dataset that contains real and fake news for specific genres of news. We gathered news about 100 data for each political and scientific topic from the Snopes, Politifact, and Emergent.info datasets to use as our training dataset. We also created a dataset filled with varying topics to use as our testing dataset The data included in this set is a mix of recent informative and misinformative articles. Our plan with these datasets is to find commonalities of misinformation across different topics. To do this, we are training our models based on set genres and then testing the results to a set of data with varying genres of news. </p>
+  <p>Our data is collected from <a href="http://fakenews.research.sfu.ca/#parseWebs">Simon Fraser University's fake news research</a> where we used the datasets containing Snopes, Politifact, and Emergent.info articles of varying real and fake news from 2010 to 2018. We took articles from each dataset to create a new dataset that contains real and fake news for specific genres of news. We gathered news about 100 data for each political and scientific topic from the Snopes, Politifact, and Emergent.info datasets to use as our training dataset. We also created a dataset filled with varying topics to use as our testing dataset The data included in this set is a mix of recent informative and misinformative articles. Our plan with these datasets is to find commonalities of misinformation across different topics. To do this, we are training our models based on set genres and then testing the results to a set of data with varying genres of news. </p>
    <h2>What are we trying to predict</h2>
     <p align="center"> <img src="assets/img/infowars.png"> </p>
 
@@ -100,5 +99,5 @@
    <h3>Commonalities</h3>
    <p>The next part of our project was finding if these models overlapped in some way, so we looked at how much their list of important words intersected with each other. For example, we found that the highest intersection was the intersection between General and Politics decision trees, with a similarity of 53.6%. An example of a limited intersection was the Science SVM model with the Politics Decision-Tree model with a similarity of 2.4%. While there are some limitation to this method, such as magnitude, we feel it shows important ways that these articles overlap in subject matter and in informativeness.</p>
  </body>
-
+ <h1><a href="https://github.com/freebreadstix/capstone_B02">Link to our Github Repo!]</a></h1>
 </html>
