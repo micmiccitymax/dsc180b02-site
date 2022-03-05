@@ -5,12 +5,12 @@
 
 Our data is collected from [Simon Fraser University's fake news research](http://fakenews.research.sfu.ca/#parseWebs) where we used the datasets containing Snopes, Politifact, and Emergent.info articles of varying real and fake news from 2010 to 2018. We took articles from each dataset to create a new dataset that contains real and fake news for specific genres of news. We gathered news about 100 data for each political and scientific topic from the Snopes, Politifact, and Emergent.info datasets to use as our training dataset. We also created a dataset filled with varying topics to use as our testing dataset The data included in this set is a mix of recent informative and misinformative articles. Our plan with these datasets is to find commonalities of misinformation across different topics. To do this, we are training our models based on set genres and then testing the results to a set of data with varying genres of news. 
 ## What are we trying to predict
-<img src="assets/img/infowars.png">
+<div style="text-align: center"><img src="assets/img/infowars.png">
  
 For our research, we are using our training dataset to predict whether a random article, regardless of the genre, is misinformative or not. After Preprocessing with TFIDF We will train our models so that it learns the commonalities of misinformation for a set topic. Then we will test our findings onto a random article to see if our model can accurately predict whether that article is misinformative or not. We use the scores of the Decision Tree, Logistic Regression, Random Forest Classifier, and SVM to test our models’ accuracies. After our models make a prediction on a random genre article, we want to examine differences of misinformation across different genres of news.
 ## What models are we using for prediction
 ### Decision Tree
-<img src="assets/img/decision_tree_example.png">
+<div style="text-align: center"><img src="assets/img/decision_tree_example.png" align="middle">
 
 Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.
 
