@@ -36,19 +36,21 @@ Support Vector Machine is a machine learning method used to find the best hyperp
 ### Data Analysis
 Since our goal was to see if there were themes to the misinformation of each topic. We looked at what words would be the most important in deciding between misinformation. For consistency, we used logisitic regression as our base model for determining these clouds.
 
-<img src="assets/img/science_logisitic_cloud (1).png"> 
+<img src="assets/img/science_logisitic_cloud (1).png"> <img src="assets/img/science_logisitic_cloud_false.png"> 
 
-The image above is the word cloud of most important words for science articles. The most important words of science's word cloud are Lexus, chip, honey, and Ukraine.
+The image on the left is the word cloud of most important words for informative science articles. The most important words of informative science's word cloud are Lexus, chip, honey, and Ukraine. The image on the right is the word cloud of most important words for informative science articles. The most important words of misinformative science's word cloud are Lexus, chip, honey, and Ukraine.
 
-<img src="assets/img/economics_logisitic_cloud (1).png">
+<img src="assets/img/economics_logisitic_cloud (1).png"> <img src="assets/img/economics_logisitic_cloud_false.png"> 
 
-The image above is the word cloud of most important words for economic articles. The most important words of economy's word cloud are been, for, and without.
+The image on the left is the word cloud of most important words for informative economic articles. The most important words of informative economy's word cloud are been, for, and without.
 
-<img src="assets/img/politics_logisitic_cloud.png">
-The image above is the word cloud of most important words for political articles. The most important words of politics's word cloud are Florida, the, Maher, Romney, and King.
+<img src="assets/img/politics_logisitic_cloud.png"> <img src="assets/img/politics_logisitic_cloud_false.png"> 
 
-<img src="assets/img/general_logisitic_cloud.png">
-The image above is the word cloud of most important words for articles with the topics science, economy, and politics. The most important words for this word cloud are Covid, the, Romney, billion, playing, and for.
+The image on the left is the word cloud of most important words for informative political articles. The most important words of informative politics's word cloud are Florida, the, Maher, Romney, and King.
+
+<img src="assets/img/general_logisitic_cloud.png"> <img src="assets/img/general_logisitic_cloud_false.png"> 
+
+The image on the left is the word cloud of most important words for informative articles with the topics science, economy, and politics. The most important words for this word cloud are Covid, the, Romney, billion, playing, and for.
 
 ## Results and Conclusions
 ### Accuracy Percision and Recall
