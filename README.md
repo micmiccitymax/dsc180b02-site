@@ -36,21 +36,38 @@ Support Vector Machine is a machine learning method used to find the best hyperp
 ### Data Analysis
 Since our goal was to see if there were themes to the misinformation of each topic. We looked at what words would be the most important in deciding between misinformation. For consistency, we used logisitic regression as our base model for determining these clouds.
 
-<img src="assets/img/science_logisitic_cloud (1).png"> <img src="assets/img/science_logisitic_cloud_false.png"> 
+<img src="assets/img/science_logisitic_cloud (1).png"> 
 
-The image on the left is the word cloud of most important words for informative science articles. The most important words of informative science's word cloud are Lexus, chip, honey, and Ukraine. The image on the right is the word cloud of most important words for informative science articles. The most important words of misinformative science's word cloud are Lexus, chip, honey, and Ukraine.
+The image above is the word cloud of most important words for informative science articles. The most interesting words of informative science's word cloud are Lexus, chip, honey, and Ukraine. This result is interesting because it shows that informative science articles mainly focus on subject of the article.
 
-<img src="assets/img/economics_logisitic_cloud (1).png"> <img src="assets/img/economics_logisitic_cloud_false.png"> 
+<img src="assets/img/science_logisitic_cloud_false.png"> 
 
-The image on the left is the word cloud of most important words for informative economic articles. The most important words of informative economy's word cloud are been, for, and without.
+The image above is the word cloud of most important words for misinformative science articles. The most interesting words that are visible by this word cloud are part, time, well, and more. These words are 
+interesting because they are all descriptive words compared to the focus on the subject of the informative science articles.
 
-<img src="assets/img/politics_logisitic_cloud.png"> <img src="assets/img/politics_logisitic_cloud_false.png"> 
+<img src="assets/img/economics_logisitic_cloud (1).png"> 
 
-The image on the left is the word cloud of most important words for informative political articles. The most important words of informative politics's word cloud are Florida, the, Maher, Romney, and King.
+The image above is the word cloud of most important words for informative economic articles. The most interesting words of informative economy's word cloud are been, when, and without. This result is different compared to informative science articles where its main focus were the subject of the article. Economic's informative article focuses more on occasions.
 
-<img src="assets/img/general_logisitic_cloud.png"> <img src="assets/img/general_logisitic_cloud_false.png"> 
+<img src="assets/img/economics_logisitic_cloud_false.png"> 
 
-The image on the left is the word cloud of most important words for informative articles with the topics science, economy, and politics. The most important words for this word cloud are Covid, the, Romney, billion, playing, and for.
+The image above is the word cloud of most important words for misinformative economic articles. The most interesting words of misinformative economy's word cloud are also, from, elected, and on. This result focuses a lot more on actions rather than the subject of the article.
+
+<img src="assets/img/politics_logisitic_cloud.png"> 
+
+The image above is the word cloud of most important words for informative political articles. The most interesting words of informative politics's word cloud are Florida, the, Maher, Romney, and King. This result is a similar case to informative science article's results. There is more focus onto the subject of the article. 
+
+<img src="assets/img/politics_logisitic_cloud_false.png"> 
+
+The image above is the word cloud of most important words for misinformative political articles. The most interesting words of misinformative politics's word cloud are has, was, more, told, and did. This result is similar to misinformative economic article's results. There is more focus on to the action rather than the subject of the article.
+
+<img src="assets/img/general_logisitic_cloud.png"> 
+
+The image above is the word cloud of most important words for informative articles with the topics science, economy, and politics all combined. The most interesting words for this word cloud are Covid, the, Romney, billion, playing, and wealth. The result is interesting since there are mixture of focus onto subject and description of the subject.
+
+<img src="assets/img/general_logisitic_cloud_false.png"> 
+
+The image above is the word cloud of most important words for misinformative articles with the topics science, economy, and politics all combined. The most interesting words for this word cloud are high, most, nearly, several, and more. This result is interesting because these descriptive words are mostly used to describe more of something. Based on the nature of misinformation, it could be hypothesize that misinformative articles use these kinds of descriptive words to exaggerate the subject of its article.
 
 ## Results and Conclusions
 ### Accuracy Percision and Recall
