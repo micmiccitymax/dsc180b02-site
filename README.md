@@ -99,5 +99,5 @@
    <h3>Commonalities</h3>
    <p>The next part of our project was finding if these models overlapped in some way, so we looked at how much their list of important words intersected with each other. For example, we found that the highest intersection was the intersection between General and Politics decision trees, with a similarity of 53.6%. An example of a limited intersection was the Science SVM model with the Politics Decision-Tree model with a similarity of 2.4%. While there are some limitation to this method, such as magnitude, we feel it shows important ways that these articles overlap in subject matter and in informativeness.</p>
  </body>
- <h1><a href="https://github.com/freebreadstix/capstone_B02">Link to our Github Repo!]</a></h1>
+ <h1><a href="https://github.com/freebreadstix/capstone_B02">Link to our Github Repo!</a></h1>
 </html>
