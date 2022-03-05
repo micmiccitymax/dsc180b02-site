@@ -11,29 +11,29 @@ For our research, we are using our training dataset to predict whether a random 
 ### Decision Tree
 <img src="assets/img/decision_tree_example.png">
 
-#### Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.
+Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.
 
 
 ### Logistic Regression
 <img src="assets/img/logistic_regression_example.png">
 
-#### Logisitic Regression is a machine learning method that results in a discrete (1,0) classification based on variables inputted.
+Logisitic Regression is a machine learning method that results in a discrete (1,0) classification based on variables inputted.
 
 
 ### Random Forest Classifier
 <img src="assets/img/random_forest_classifier.png">
 
-#### Random Forest Classifier is a machine learning method that runs multiple decisions trees and uses the classification the majority choses.
+Random Forest Classifier is a machine learning method that runs multiple decisions trees and uses the classification the majority choses.
 
 
 ### Support Vector Machine (SVM)
 <img src="assets/img/svm_example.png">
 
-#### Support Vector Machine is a machine learning method used to find the best hyperplane that separates the data into two distinct classes.
+Support Vector Machine is a machine learning method used to find the best hyperplane that separates the data into two distinct classes.
 
 
 ### Data Analysis
-#### Since our goal was to see if there were themes to the misinformation of each topic. We looked at what words would be the most important in deciding between misinformation. For consistency, we used logisitic regression as our base model for determining these clouds.
+Since our goal was to see if there were themes to the misinformation of each topic. We looked at what words would be the most important in deciding between misinformation. For consistency, we used logisitic regression as our base model for determining these clouds.
 
 <img src="assets/img/science_logisitic_cloud (1).png"> 
 
@@ -51,21 +51,21 @@ The image above is the word cloud of most important words for articles with the 
 
 ## Results and Conclusions
 ### Accuracy Percision and Recall
-##### As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. The results below are our top performers for each topic.
+As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. The results below are our top performers for each topic.
 #### General 
- <img src="assets/img/general_acc.PNG">
+<img src="assets/img/general_acc.PNG">
  
 #### Science
- <img src="assets/img/science_accPNG.PNG">
+<img src="assets/img/science_accPNG.PNG">
  
 #### Economics
- <img src="assets/img/economics_acc.PNG">
+<img src="assets/img/economics_acc.PNG">
  
 #### Politics
- <img src="assets/img/politics_acc.PNG">
+<img src="assets/img/politics_acc.PNG">
 
-##### We certainly had variances in success, but our best performing model was the science decision tree, with an accuracy of about 87%.
+We certainly had variances in success, but our best performing model was the science decision tree, with an accuracy of about 87%.
 ### Commonalities
-#### The next part of our project was finding if these models overlapped in some way, so we looked at how much their list of important words intersected with each other. For example, we found that the highest intersection was the intersection between General and Politics decision trees, with a similarity of 53.6%. An example of a limited intersection was the Science SVM model with the Politics Decision-Tree model with a similarity of 2.4%. While there are some limitation to this method, such as magnitude, we feel it shows important ways that these articles overlap in subject matter and in informativeness.
+The next part of our project was finding if these models overlapped in some way, so we looked at how much their list of important words intersected with each other. For example, we found that the highest intersection was the intersection between General and Politics decision trees, with a similarity of 53.6%. An example of a limited intersection was the Science SVM model with the Politics Decision-Tree model with a similarity of 2.4%. While there are some limitation to this method, such as magnitude, we feel it shows important ways that these articles overlap in subject matter and in informativeness.
 
 ## Works Cited
