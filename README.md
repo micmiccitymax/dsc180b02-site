@@ -10,7 +10,9 @@ Our data is collected from [Simon Fraser University's fake news research](http:/
 For our research, we are using our training dataset to predict whether a random article, regardless of the genre, is misinformative or not. After Preprocessing with TFIDF We will train our models so that it learns the commonalities of misinformation for a set topic. Then we will test our findings onto a random article to see if our model can accurately predict whether that article is misinformative or not. We use the scores of the Decision Tree, Logistic Regression, Random Forest Classifier, and SVM to test our models’ accuracies. After our models make a prediction on a random genre article, we want to examine differences of misinformation across different genres of news.
 ## What models are we using for prediction
 ### Decision Tree
-<div style="text-align: center"><img src="assets/img/decision_tree_example.png" align="middle">
+<p align="center">
+<img src="assets/img/decision_tree_example.png">
+</p>
 
 Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.
 
