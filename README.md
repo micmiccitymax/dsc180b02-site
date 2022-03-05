@@ -75,6 +75,7 @@ interesting because they are all descriptive words compared to the focus on the 
 <h2>Results and Conclusions</h2>
 <h3>Accuracy Percision and Recall</h3>
 <p>As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. The results below are our top performers for each topic.</p>
+
 <h4>General</h4>
 <p align="center"> <img src="assets/img/general_acc.PNG"> </p>
  
