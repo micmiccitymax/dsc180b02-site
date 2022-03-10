@@ -88,7 +88,7 @@
 
    <h2>Results and Conclusions</h2>
     <h3>Accuracy Percision and Recall</h3>
-     <p>As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. When examining the accuracies of the models, we decided to show both ends of performance for each topic, the best and the worst. The results below are our top performers for each topic.</p>
+     <p>As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. When examining the accuracies of the models, we decided to show both ends of performance for each topic, the best and the worst. The results below are our top and worst performers for each topic. We are showing only one of each best and worst models.</p>
 
    <h4>General</h4>
     <h5>Best Model</h5>
