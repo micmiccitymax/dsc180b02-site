@@ -1,21 +1,28 @@
 <html lang="en">
  <body>
   <h1>Finding Commonalities in Misinformative Articles Across Various Topics</h1>
+  <h5> By: Maximilian Halvax, Lucas Nguyen, Hwang Min Yu</h5>
    <h2>What Data Are We Using?</h2>
     <p align="center"><img src="assets/img/Snopes.png">    <img src="assets/img/Polifact.png">     <img src="assets/img/emergent.jfif"></p>
 
   <p>Our data is collected from <a href="http://fakenews.research.sfu.ca/#parseWebs">Simon Fraser University's fake news research</a> where we used the datasets containing Snopes, Politifact, and Emergent.info articles of varying real and fake news from 2010 to 2018. We took articles from each dataset to create a new dataset that contains real and fake news for specific genres of news. We gathered news about 100 data for each political and scientific topic from the Snopes, Politifact, and Emergent.info datasets to use as our training dataset. We also created a dataset filled with varying topics to use as our testing dataset The data included in this set is a mix of recent informative and misinformative articles. Our plan with these datasets is to find commonalities of misinformation across different topics. To do this, we are training our models based on set genres and then testing the results to a set of data with varying genres of news. </p>
+  
    <h2>What are we trying to predict</h2>
   <p align="center"> <img src="assets/img/infowars.png"> </p>
 
    <p>For our research, we are using our training dataset to predict whether a random article, regardless of the genre, is misinformative or not. After Preprocessing with TFIDF We will train our models so that it learns the commonalities of misinformation for a set topic. Then we will test our findings onto a random article to see if our model can accurately predict whether that article is misinformative or not. We use the scores of the Decision Tree, Logistic Regression, Random Forest Classifier, and SVM to test our models’ accuracies. After our models make a prediction on a random genre article, we want to examine differences of misinformation across different genres of news. </p>
+  
    <h2>What models and techniques are we using for prediction</h2>
     <h3>TF-IDF</h3>
-    <p>We used the natural lanaguage processing (NLP) technique called term frequency and inverse document frequency, TF-IDF, to score the words from articles for the most important words of each topic we were testing. We input the scores from TF-IDF through our models for prediction. As our final result, we get an accuracy, precision, and recall score to determine how well our models predicted articles as misinformative or not.</p>
-    <h3>Decision Tree </h3>
-    <p align="center"> <img src="assets/img/decision_tree_example.png"> </p>
+  
+  <p align="center"> <img src="assets/img/TFIDF.png"> </p>
+  
+   <p>We used the natural lanaguage processing (NLP) technique called term frequency and inverse document frequency, TF-IDF, to score the words from articles for the most important words of each topic we were testing. We input the scores from TF-IDF through our models for prediction. As our final result, we get an accuracy, precision, and recall score to determine how well our models predicted articles as misinformative or not.</p>
+  
+   <h3>Decision Tree </h3>
+   <p align="center"> <img src="assets/img/decision_tree_example.png"> </p>
 
-   <p>Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.</p>
+  <p>Decision Tree is a machine learning method that involves many leafs and branches to reach a classification.</p>
 
 
    <h3>Logistic Regression</h3>
@@ -81,25 +88,41 @@
 
    <h2>Results and Conclusions</h2>
     <h3>Accuracy Percision and Recall</h3>
-     <p>As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. The results below are our top performers for each topic.</p>
+     <p>As is consistent with the other projects that look at this issue, we ended up with somewhat lower accuracies. When examining the accuracies of the models, we decided to show both ends of performance for each topic, the best and the worst. The results below are our top performers for each topic.</p>
 
    <h4>General</h4>
-    <p align="center"> <img src="assets/img/general_acc.PNG"> </p>
+    <h5>Best Model</h5>
+    <p align="center"> <img src="assets/img/General SVM.jpg"> </p>
+    
+   <h5>Worst Model</h5>
+   <p align="center"> <img src="assets/img/General Random Forest.jpg"> </p>
 
    <h4>Science</h4>
-    <p align="center"> <img src="assets/img/science_accPNG.PNG"> </p>
+    <h5>Best Model</h5>
+    <p align="center"> <img src="assets/img/Science DT.jpg"> </p>
+  
+   <h5>Worst Model</h5>
+   <p align="center"> <img src="assets/img/Science LR.jpg"> </p>
 
    <h4>Economics</h4>
-    <p align="center"> <img src="assets/img/economics_acc.PNG"> </p>
+    <h5>Best Model</h5>
+    <p align="center"> <img src="assets/img/Econ Decision Tree.jpg"> </p>
+  
+   <h5>Worst Model</h5>
+   <p align="center"> <img src="assets/img/Econ Random Forest.jpg"> </p>
 
    <h4>Politics</h4>
-    <p align="center"> <img src="assets/img/politics_acc.PNG"> </p>
+    <h5>Best Model</h5>
+    <p align="center"> <img src="assets/img/Politics RF.jpg"> </p>
+  
+   <h5>Worst Model</h5>
+   <p align="center"> <img src="assets/img/Politics DT.jpg"> </p>
 
-   <p>We certainly had variances in success, but our best performing model was the science decision tree, with an accuracy of about 87%.</p>
+   <p>We certainly had variances in success. Our best performing model was the science decision tree, with an accuracy of about 73.9%. Our worst performing model was the economy random forest, with an accuracy of 48%</p>
 
    <h3>Commonalities</h3>
   
-  
+  <p align="center"> <img src="assets/img/Intersections.jpg"> </p>
   
    <p>To evaluate commonalities between our topics and models, we wanted to examine where each model had overlap in their sets of important words. For models, Decision trees were the most likely to have high overlap. For General, we see the most overlap (as expected). In terms of overlap between individual topics, we saw politics and Economics also having high overlap with Science behind. These results add some sense as the language used in terms of politics is more similar to economics than science. When it comes to misinformation, Science might have more unique words, that would confuse and then lead to misleading people.</p>
   
